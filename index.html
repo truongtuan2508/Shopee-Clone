@@ -23,14 +23,20 @@
                                    <li class="header__navbar-item header__navbar-item--separate">
                                         <a href="" class="header__navbar-item-link">Trở thành Người bán Shopee</a>
                                    </li>
-                                   <li class="header__navbar-item header__navbar-item--separate">
+                                   <li class="header__navbar-item header__navbar-item--has-qr header__navbar-item--separate">
                                         <a href="" class="header__navbar-item-link">Tải ứng dụng</a>
                                         <div class="header__qr">
                                              <img src="./assets/img/qr_code.png" alt="QR code" class="header__qr-img" />
                                              <div class="header__qr-apps">
-                                                  <img src="./assets/img/google_play.png" alt="google_play" class="header__qr-download-img" />
-                                                  <img src="./assets/img/app_store.png" alt="app_store" class="header__qr-download-img" />
-                                                  <img src="./assets/img/app_gallery.png" alt="app_gallery" class="header__qr-download-img" />
+                                                  <a href="" class="header__qr-link">
+                                                       <img src="./assets/img/app_store.png" alt="app_store" class="header__qr-download-img" />
+                                                  </a>
+                                                  <a href="" class="header__qr-link">
+                                                       <img src="./assets/img/google_play.png" alt="google_play" class="header__qr-download-img" />
+                                                  </a>
+                                                  <a href="" class="header__qr-link">
+                                                       <img src="./assets/img/app_gallery.png" alt="app_gallery" class="header__qr-download-img" />
+                                                  </a>
                                              </div>
                                         </div>
                                    </li>
@@ -47,8 +53,54 @@
                               </ul>
 
                               <ul class="header__navbar-list">
-                                   <li class="header__navbar-item">
+                                   <li class="header__navbar-item header__navbar-item--has-notify">
                                         <a href="" class="header__navbar-item-link"> <i class="header__navbar-icon fa-regular fa-bell"></i>Thông báo </a>
+                                        <div class="header__notify">
+                                             <header class="header__notify-header">
+                                                  <h3>Thông báo mới nhận</h3>
+                                             </header>
+                                             <ul class="header__notify-list">
+                                                  <li class="header__notify-item header__notify-item--viewed">
+                                                       <a href="" class="header__notify-link">
+                                                            <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="" class="header__notify-img" />
+                                                            <div class="header__notify-info">
+                                                                 <span class="header__notify-name">Header notification CSS - Phần 2. Header notification CSS - Phần 2</span>
+                                                                 <span class="header__notify-description">Mô tả sản phẩm. </span>
+                                                            </div>
+                                                       </a>
+                                                  </li>
+                                                  <li class="header__notify-item">
+                                                       <a href="" class="header__notify-link">
+                                                            <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="" class="header__notify-img" />
+                                                            <div class="header__notify-info">
+                                                                 <span class="header__notify-name">Mỹ phẩm</span>
+                                                                 <span class="header__notify-description">Mô tả sản phẩm</span>
+                                                            </div>
+                                                       </a>
+                                                  </li>
+                                                  <li class="header__notify-item">
+                                                       <a href="" class="header__notify-link">
+                                                            <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="" class="header__notify-img" />
+                                                            <div class="header__notify-info">
+                                                                 <span class="header__notify-name">Mỹ phẩm</span>
+                                                                 <span class="header__notify-description">Mô tả sản phẩm</span>
+                                                            </div>
+                                                       </a>
+                                                  </li>
+                                                  <li class="header__notify-item">
+                                                       <a href="" class="header__notify-link">
+                                                            <img src="https://www.w3schools.com/w3css/img_lights.jpg" alt="" class="header__notify-img" />
+                                                            <div class="header__notify-info">
+                                                                 <span class="header__notify-name">Mỹ phẩm</span>
+                                                                 <span class="header__notify-description">Mô tả sản phẩm</span>
+                                                            </div>
+                                                       </a>
+                                                  </li>
+                                             </ul>
+                                             <footer class="header__notify-footer">
+                                                  <a href="" class="header__notify-footer-btn">Xem tất cả</a>
+                                             </footer>
+                                        </div>
                                    </li>
                                    <li class="header__navbar-item">
                                         <a href="" class="header__navbar-item-link"> <i class="header__navbar-icon fa-regular fa-circle-question"></i>Hỗ trợ</a>
@@ -64,6 +116,57 @@
                <div class="container"></div>
 
                <footer class="footer"></footer>
+          </div>
+
+          <!-- Modal Layout -->
+          <div class="modal">
+               <div class="modal__overlay"></div>
+               <div class="modal__body">
+                    <!-- Authen form -->
+                    <div class="auth-form">
+                         <div class="auth-form__container">
+                              <div class="auth-form__header">
+                                   <h3 class="auth-form__heading">Đăng Ký</h3>
+                                   <span class="auth-form__switch-btn">Đăng Nhập</span>
+                              </div>
+
+                              <div class="auth-form__form">
+                                   <div class="auth-form__group">
+                                        <input type="text" class="auth-form__input" placeholder="Số điện thoại/Email" />
+                                   </div>
+                                   <div class="auth-form__group">
+                                        <input type="password" class="auth-form__input" placeholder="Mật khẩu của bạn" />
+                                   </div>
+                                   <div class="auth-form__group">
+                                        <input type="password" class="auth-form__input" placeholder="Nhập lại mật khẩu" />
+                                   </div>
+                              </div>
+
+                              <div class="auth-form__aside">
+                                   <p class="auth-form__policy-text">
+                                        Bằng việc đăng kí, bạn đã đồng ý với Shopee về <a href="" class="auth-form__text-link">Điều khoản dịch vụ</a> &
+                                        <a href="" class="auth-form__text-link">Chính sách bảo mật</a>
+                                   </p>
+                              </div>
+
+                              <div class="auth-form__controls">
+                                   <button class="btn auth-form__controls-back">TRỞ LẠI</button>
+                                   <button class="btn btn--primary">ĐĂNG KÝ</button>
+                              </div>
+                         </div>
+
+                         <div class="auth-form__socials">
+                              <a href="" class="btn btn--with-icon">
+                                   <i class="fa-brands fa-facebook-square"></i>
+                                   Kết nối với Facebook
+                              </a>
+                              <a href="" class="btn btn--with-icon">
+                                   <i class="fa-brands fa-google-plus"></i>
+                                   Kết nối với Google
+                              </a>
+                         </div>
+                    </div>
+               </div>
           </div>
      </body>
 </html>
