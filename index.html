@@ -127,7 +127,21 @@
                               </div>
 
                               <div class="header__search">
-                                   <input type="text" class="header__search-input" placeholder="Search..." />
+                                   <div class="header__search-input-wrap">
+                                        <input type="text" class="header__search-input" placeholder="Search..." />
+                                        <!-- Search History -->
+                                        <div class="header__search-history">
+                                             <h3 class="header__search-history-heading">Lịch sử tìm kiếm</h3>
+                                             <ul class="header__search-history-list">
+                                                  <li class="header__search-history-item">
+                                                       <a href="">LS1</a>
+                                                  </li>
+                                                  <li class="header__search-history-item">
+                                                       <a href="">LS2</a>
+                                                  </li>
+                                             </ul>
+                                        </div>
+                                   </div>
                                    <div class="header__search-select">
                                         <span class="header__search-select-label">Trong Shop</span>
                                         <i class="header__search-select-icon fa-solid fa-angle-down"></i>
@@ -147,8 +161,74 @@
                                    </button>
                               </div>
 
+                              <!-- Cart Layout -->
                               <div class="header__cart">
-                                   <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                                   <div class="header__cart-wrap">
+                                        <i class="header__cart-icon fa-solid fa-cart-shopping"></i>
+                                        <span class="header__cart-notice">3</span>
+                                        <!-- No card:  header__cart-list--no-cart -->
+                                        <div class="header__cart-list">
+                                             <img src="./assets/img/no-cart.png" alt="" class="header__cart-no-cart-img" />
+                                             <span class="header__cart-list-no-cart-msg">Chưa có sản phẩm</span>
+
+                                             <h4 class="header__cart-heading">Sản phẩm đã thêm</h4>
+                                             <ul class="header__cart-list-item">
+                                                  <!-- Cart item -->
+                                                  <li class="header__cart-item">
+                                                       <img src="https://bon3495.github.io/clone-shopee/assets/img/cart_item/item2.jpeg" alt="" class="header__cart-img" />
+                                                       <div class="header__cart-item-info">
+                                                            <div class="header__cart-item-head">
+                                                                 <h5 class="header__cart-item-name">Laptop MSI GF75 Thin 10SCXR-</h5>
+                                                                 <div class="header__cart-item-price-wrap">
+                                                                      <span class="header__cart-item-price">2.000.000đ</span>
+                                                                      <span class="header__cart-item-multiply">x</span>
+                                                                      <span class="header__cart-item-quantity">2</span>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="header__cart-item-body">
+                                                                 <span class="header__cart-item-description">Main:...Chip:...</span>
+                                                                 <span class="header__cart-item-remove">Xóa</span>
+                                                            </div>
+                                                       </div>
+                                                  </li>
+                                                  <li class="header__cart-item">
+                                                       <img src="https://bon3495.github.io/clone-shopee/assets/img/cart_item/item2.jpeg" alt="" class="header__cart-img" />
+                                                       <div class="header__cart-item-info">
+                                                            <div class="header__cart-item-head">
+                                                                 <h5 class="header__cart-item-name">Laptop MSI GF75 Thin 10SCXR-</h5>
+                                                                 <div class="header__cart-item-price-wrap">
+                                                                      <span class="header__cart-item-price">2.000.000đ</span>
+                                                                      <span class="header__cart-item-multiply">x</span>
+                                                                      <span class="header__cart-item-quantity">2</span>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="header__cart-item-body">
+                                                                 <span class="header__cart-item-description">Main:...Chip:...</span>
+                                                                 <span class="header__cart-item-remove">Xóa</span>
+                                                            </div>
+                                                       </div>
+                                                  </li>
+                                                  <li class="header__cart-item">
+                                                       <img src="https://bon3495.github.io/clone-shopee/assets/img/cart_item/item2.jpeg" alt="" class="header__cart-img" />
+                                                       <div class="header__cart-item-info">
+                                                            <div class="header__cart-item-head">
+                                                                 <h5 class="header__cart-item-name">Laptop MSI GF75 Thin 10SCXR-</h5>
+                                                                 <div class="header__cart-item-price-wrap">
+                                                                      <span class="header__cart-item-price">2.000.000đ</span>
+                                                                      <span class="header__cart-item-multiply">x</span>
+                                                                      <span class="header__cart-item-quantity">2</span>
+                                                                 </div>
+                                                            </div>
+                                                            <div class="header__cart-item-body">
+                                                                 <span class="header__cart-item-description">Main:...Chip:...</span>
+                                                                 <span class="header__cart-item-remove">Xóa</span>
+                                                            </div>
+                                                       </div>
+                                                  </li>
+                                             </ul>
+                                             <a class="header__cart-view-cart btn btn--primary">Xem giỏ hàng</a>
+                                        </div>
+                                   </div>
                               </div>
                          </div>
                     </div>
